@@ -1,0 +1,282 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    height: 200vh;
+}
+
+.navbar {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+
+
+}
+
+.navbar-scrolled {
+    background-color: #2B4282 !important;
+}
+
+.navbar-collapse {
+    margin-left: 10%;
+
+
+}
+.layer{
+    position: absolute;
+    height: 100px;
+    right: 0;
+    width: 300px;
+    z-index: -1;
+    border-radius: 50% 0 0% 0;
+    background-color: #2B4282;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    /* Change the color of the brand text */
+}
+
+.nav-link {
+    color: #ffffff !important;
+    /* Change the color of the links */
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(107, 107, 107) !important;
+    /* Change the color of the links on hover */
+}
+
+.navbar {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-scrolled {
+    background-color: #ffffff !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+/* /////////////////////////////////////Main///////////////////////////////// */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110vh;
+    overflow: hidden;
+
+}
+
+.triangle-topright {
+    width: 110vh;
+    height: 110vh;
+    background-color: #2B4282;
+    transform: rotate(-10deg);
+    border-radius: 20%;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    max-width: 80%;
+    transform: rotate(10deg);
+
+}
+.cont h1{
+    font-size: 55px;
+}
+.btnn{
+    background: transparent;
+    padding: 14px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 50px;
+    
+}
+.danger_p .danger{
+    margin-right: 2rem;
+}
+.mai{
+    height: 60vh;
+background-image: url(https://www.droptaxi.in/assets/images/background.png);
+background-position: center;
+background-size: contain;
+
+}
+
+.catego{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10%;
+}
+.App{
+    text-align: center;
+}
+.app_img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 5%;
+}
+  
+.buttons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline by default */
+  }
+  
+  .buttons button:hover,
+  .buttons button.button-hover {
+    background-color: #ccc; /* Change to desired hover effect color */
+    color: #000; /* Change to desired hover effect color */
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+ 
+  
+ .buttons button{
+    background: transparent;
+    border: none;
+ }
+  
+  select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .box_parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 20px;
+  }
+  .box{
+   height: 200px;
+   width: 250px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+  }
+  .footer{
+    margin-top: 10%;
+    height: 30vh;
+    width: 100%;
+    background-color: #2B4282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px;
+  }
+  .quotes{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .horizontal-line {
+    width: 100%; /* Adjust the width as needed */
+    height: 1px; /* Adjust the height as needed */
+    background-color: black; /* Adjust the color as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.select{
+    width: 500px;
+ text-align: center;
+}
+.sle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.s{width: 300px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================Media screen================================ */
+@media screen and (max-width: 600px) {
+    .box_parent {
+        flex-direction: column;
+    }
+    .select{
+        width: 100%;
+    }
+    .app_img img{
+        height: 30px;
+        width: 50px;
+     } 
+       .buttons button{
+        padding: 0%;
+      
+       }
+       .box{
+        margin-top: 20px;
+       }
+       .buttons{
+        margin: 0%;
+       }
+    
+}
+
+
+
+
+
+
+
